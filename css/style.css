@@ -132,6 +132,29 @@ img {
   .container {
     width: 550px;
   }
+  .lessons .row{
+    justify-content: center;
+  }
+  .lessons .col{
+    flex-shrink: 0;
+    width: 75%;
+    
+  }
+  .steps .row{
+    justify-content: center;
+  }
+
+  .steps .col{
+    flex-shrink: 0;
+    width: 45%
+  }
+  .why-us .row{
+    justify-content: center;
+  }
+  .why-us .col-left, .why-us .col-right{
+   flex-shrink: 0;
+   width: 70%;
+}
 }
 
 @media screen and (max-width: 576px) {
